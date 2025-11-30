@@ -247,7 +247,7 @@ def sanitize_filename(name: str) -> str:
 def teradl_info(link: str):
     """returns {title,size,download} or None"""
     try:
-        url = f"https://teradl.tiiny.io/?link={link}"
+        url = f"https://teradl.tiiny.io/?key=RushVx&link={link}"
         r = requests.get(url, timeout=30)
         r.raise_for_status()
         j = r.json()
