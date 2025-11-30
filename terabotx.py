@@ -26,7 +26,7 @@ from pyrogram.errors import FloodWait, RPCError, ChatAdminRequired, ChannelPriva
 # ========= USER CONFIG (EDIT THESE) =========
 OWNER_ID = 1685470205               # <-- YOUR TELEGRAM ID
 SUDO_IDS = []                        # extra admins (e.g. [111,222])
-BOT_TOKEN = ""
+BOT_TOKEN = "8343188725:AAFVsaUHOpIlq7V180W3VcDjDUhLFt2jfUM"
 API_ID   = 28244492
 API_HASH = "38e4ce53faea889073f6f49e83cbc392"
 
